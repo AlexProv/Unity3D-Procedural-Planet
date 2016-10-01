@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/World/PlanetChunk.cs">
+    <Files>
+      <File FileName="Assets/Scripts/World/PlanetWorld.cs" Line="111" Column="19" />
+      <File FileName="Assets/Scripts/oct/OctahedronSphereCreator.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/PerlinSimplex/SurfaceCreator.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/World/PlanetChunk.cs" Line="55" Column="83" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

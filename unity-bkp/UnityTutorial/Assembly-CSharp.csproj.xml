@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5FF7C539-2808-EF86-A6B3-E2EF9DC1EE23}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\LibNoiseUnity\Demo.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Billow.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Checker.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Const.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Cylinders.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Perlin.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\RiggedMultifractal.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Spheres.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Generator\Voronoi.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Gradient.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\ModuleBase.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Noise2D.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Abs.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Add.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Blend.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Cache.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Clamp.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Curve.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Displace.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Exponent.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Invert.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Max.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Min.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Multiply.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Power.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Rotate.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Scale.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\ScaleBias.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Select.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Subtract.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Terrace.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Translate.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Operator\Turbulence.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\Utils.cs" />
+     <Compile Include="Assets\Scripts\Curves\Bezier.cs" />
+     <Compile Include="Assets\Scripts\Curves\BezierCurve.cs" />
+     <Compile Include="Assets\Scripts\Curves\BezierSpline.cs" />
+     <Compile Include="Assets\Scripts\Curves\Line.cs" />
+     <Compile Include="Assets\Scripts\Lab\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Lab\IntVector2.cs" />
+     <Compile Include="Assets\Scripts\Lab\Maze.cs" />
+     <Compile Include="Assets\Scripts\Lab\MazeCell.cs" />
+     <Compile Include="Assets\Scripts\Lab\MazeCellEdge.cs" />
+     <Compile Include="Assets\Scripts\Lab\MazeDirection.cs" />
+     <Compile Include="Assets\Scripts\Lab\MazePassage.cs" />
+     <Compile Include="Assets\Scripts\Lab\MazeWall.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\Flow3D.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\Noise.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\NoiseSample.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\SurfaceCreator.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\SurfaceFlow.cs" />
+     <Compile Include="Assets\Scripts\PerlinSimplex\TextureCreator.cs" />
+     <Compile Include="Assets\Scripts\World\PlanetChunk.cs" />
+     <Compile Include="Assets\Scripts\World\PlanetWorld.cs" />
+     <Compile Include="Assets\Scripts\fractal\Fractal.cs" />
+     <Compile Include="Assets\Scripts\oct\OctahedronSphereCreator.cs" />
+     <Compile Include="Assets\Scripts\oct\OctahedronSphereTester.cs" />
+     <None Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\COPYING.txt" />
+     <None Include="Assets\LibNoiseUnity\Resources\LibNoise.Unity\COPYING.LESSER.txt" />
+     <None Include="Assets\Editor\Surface Shader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
